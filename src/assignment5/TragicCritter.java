@@ -2,6 +2,8 @@ package assignment5;
 
 //import project5.Critter.CritterShape;
 
+import java.util.List;
+
 public class TragicCritter extends Critter {
 
 	@Override
@@ -34,12 +36,12 @@ public class TragicCritter extends Critter {
 		}
 	}
 
-	public static String runStats(java.util.List<Critter> avoidingCritters) {
+	public static void runStats(List<Critter> avoidingCritters) {
 		if(avoidingCritters.size() >= 2) {
-			return "Still can't get to each other";
+			System.out.println("Still can't get to each other");
 		}
 		else {
-			return "Collided, sadly";
+			System.out.println("Collided, sadly");
 		}
 	}
 	@Override

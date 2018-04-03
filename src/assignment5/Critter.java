@@ -1,5 +1,26 @@
 package assignment5;
 
+import javafx.geometry.Insets;
+import javafx.scene.control.Button;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Rectangle;
+import javafx.scene.shape.Shape;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
+
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.ArcType;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.layout.*;
+import javafx.scene.text.*;
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,9 +64,75 @@ public abstract class Critter {
 	}
 	
 	protected final String look(int direction, boolean steps) {
-		return "";
+		int num = 1;
+		int temp_x_coord = x_coord;
+		int temp_y_coord = y_coord;
+
+		if(steps){
+			num = 2;
+		}
+
+		switch(++direction){
+			case 1:
+				temp_x_coord += num;
+				break;
+			case 2:
+				temp_x_coord += num;
+				temp_y_coord -= num;
+				break;
+			case 3:
+				temp_y_coord -= num;
+				break;
+			case 4:
+				temp_x_coord -= num;
+				temp_y_coord -= num;
+				break;
+			case 5:
+				temp_x_coord -= num;
+				break;
+			case 6:
+				temp_x_coord -= num;
+				temp_y_coord += num;
+				break;
+			case 7:
+				temp_y_coord += num;
+				break;
+			case 8:
+				temp_x_coord += num;
+				temp_y_coord += num;
+				break;
+			default:
+				break;
+		}
+
+		if(temp_x_coord > Params.world_width - 1) {
+			temp_x_coord = (temp_x_coord % (Params.world_width - 1)) - 1;
+		}
+		if(temp_y_coord > Params.world_height - 1) {
+			temp_y_coord = (y_coord % (Params.world_height - 1)) - 1;
+		}
+		if(temp_x_coord < 0) {
+			temp_x_coord += Params.world_width;
+		}
+		if(temp_y_coord < 0) {
+			temp_y_coord += Params.world_height;
+		}
+
+		energy -= Params.look_energy_cost;
+
+		return checkLook(temp_x_coord, temp_y_coord);
 	}
-	
+
+	// helper bc we lazy f u
+	private static String checkLook(int temp_x, int temp_y){
+		for (Critter c : population) {
+			if((c.x_coord == temp_x) && (c.y_coord == temp_y) ){
+				return c.toString();
+			}
+		}
+		return null;
+	}
+
 	/* rest is unchanged from Project 4 */
 
 
@@ -446,45 +533,107 @@ public abstract class Critter {
 	/**
 	 * creates the world and displays the critters on it
 	 */
-	public static void displayWorld() {
+	public static GridPane displayWorld() {
+		// testing
+		Algae a = new Algae();
+		population.add(a);
+		a.setX_coord(100);
+		a.setY_coord(100);
+
 		int height = Params.world_height + 1;
 		int width = Params.world_width + 1;
 		char[][] world = new char[height + 1][width + 1];
-
-		// add borders
-		for(int i = 0; i <= height; i++) {
-			for (int j = 0; j <= width; j++) {
-				if(i == 0 || i == height){
-					world[i][j] = '-';
-				}
-				else if (j == 0 || j == width){
-					world[i][j] = '|';
-				}
-				else {
-					world[i][j] = ' ';
-				}
-			}
-		}
-		world[0][0] = '+';
-		world[height][0] = '+';
-		world[0][width] = '+';
-		world[height][width] = '+';
 
 		// add critters
 		for(int i = 0; i < population.size(); i++){
 			Critter cr = population.get(i);
 
 			if( (cr.x_coord <= width) && (cr.y_coord <= height) && (cr.x_coord > 0) && (cr.y_coord > 0)){
-				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
+//				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
 			}
 		}
 
-		// print grid
-		for(int i = 0; i <= height; i++){
-			for (int j = 0; j <= width; j++) {
-				System.out.print(world[i][j]);
+		GridPane gridPane = new GridPane();
+//		gridPane.setPadding(new Insets(0,0,0,0));
+
+		for (int row = 0; row < height+1; row++) {
+			for (int col = 0; col < width+1; col++) {
+				Rectangle rec = new Rectangle();
+				rec.setWidth(20);
+				rec.setHeight(20);
+
+				rec.setFill(Color.DARKOLIVEGREEN);
+				GridPane.setRowIndex(rec, row);
+				GridPane.setColumnIndex(rec, col);
+				gridPane.getChildren().addAll(rec);
+
 			}
-			System.out.println();
 		}
+
+		for (Critter cr : population) {
+			CritterShape shape = cr.viewShape();
+			if(shape.equals(CritterShape.CIRCLE)){
+				Circle c = new Circle();
+				c.setRadius(10);
+				c.setCenterX(cr.x_coord-10);
+				c.setCenterY(cr.y_coord-10);
+				c.setFill(Color.GREEN);
+				GridPane.setRowIndex(c, 100);
+				GridPane.setColumnIndex(c, 100);
+				gridPane.getChildren().addAll(c);
+			}
+
+		}
+
+		/*for (int x = 0 ; x < width+1 ; x++) {
+			ColumnConstraints cc = new ColumnConstraints();
+			cc.setFillWidth(true);
+			cc.setHgrow(Priority.ALWAYS);
+			gridPane.getColumnConstraints().add(cc);
+		}
+
+		for (int y = 0 ; y < height+1 ; y++) {
+			RowConstraints rc = new RowConstraints();
+			rc.setFillHeight(true);
+			rc.setVgrow(Priority.ALWAYS);
+			gridPane.getRowConstraints().add(rc);
+		}*/
+
+		/*for (int x = 0 ; x < width+1 ; x++) {
+			for (int y = 0 ; y < height+1 ; y++) {
+				gridPane.add(new Rectangle(5,5), x, y);
+			}
+		}*/
+
+
+		return gridPane;
+
+	}
+
+	private static StackPane createCell(Critter cr) {
+		// find the shape of he
+		Rectangle rec = new Rectangle();
+		rec.setWidth(50);
+		rec.setHeight(50);
+
+		CritterShape cs = cr.viewShape();
+
+		if (cs.equals(CritterShape.CIRCLE)) {
+
+		}
+
+		StackPane cell = new StackPane();
+
+		//cell.getChildren().add(s);
+		cell.getStyleClass().add("cell");
+		return cell;
 	}
 }
+
+//for(int i = 0; i < population.size(); i++){
+//			Critter cr = population.get(i);
+//
+//			if( (cr.x_coord <= width) && (cr.y_coord <= height) && (cr.x_coord > 0) && (cr.y_coord > 0)){
+//				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
+//			}
+//		}
