@@ -32,7 +32,7 @@ public class Painter {
 			s.setFill(javafx.scene.paint.Color.GREEN); break;
 		}
 		// set the outline of the shape
-		s.setStroke(javafx.scene.paint.Color.BLUE); // outline
+		s.setStroke(javafx.scene.paint.Color.WHITE); // outline
 		return s;
 	}
 	
