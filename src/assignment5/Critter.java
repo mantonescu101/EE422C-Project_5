@@ -302,8 +302,9 @@ public abstract class Critter {
 	 * Prints out how many Critters of each type there are on the board.
 	 * @param critters List of Critters.
 	 */
-	public static void runStats(List<Critter> critters) {
-		System.out.print("" + critters.size() + " critters as follows -- ");
+	public static String runStats(List<Critter> critters) {
+		String ret = "";
+		ret += critters.size() + " critters as follows -- ";
 		java.util.Map<String, Integer> critter_count = new java.util.HashMap<String, Integer>();
 		for (Critter crit : critters) {
 			String crit_string = crit.toString();
@@ -311,10 +312,10 @@ public abstract class Critter {
 		}
 		String prefix = "";
 		for (String s : critter_count.keySet()) {
-			System.out.print(prefix + s + ":" + critter_count.get(s));
+			ret += (prefix + s + ":" + critter_count.get(s));
 			prefix = ", ";
 		}
-		System.out.println();
+		return ret;
 	}
 
 	/* the TestCritter class allows some critters to "cheat". If you want to
@@ -533,12 +534,7 @@ public abstract class Critter {
 	/**
 	 * creates the world and displays the critters on it
 	 */
-	public static GridPane displayWorld() {
-		// testing
-		Algae a = new Algae();
-		population.add(a);
-		a.setX_coord(100);
-		a.setY_coord(100);
+	public static char[][] displayWorld() {
 
 		int height = Params.world_height + 1;
 		int width = Params.world_width + 1;
@@ -549,91 +545,11 @@ public abstract class Critter {
 			Critter cr = population.get(i);
 
 			if( (cr.x_coord <= width) && (cr.y_coord <= height) && (cr.x_coord > 0) && (cr.y_coord > 0)){
-//				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
+				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
 			}
 		}
 
-		GridPane gridPane = new GridPane();
-//		gridPane.setPadding(new Insets(0,0,0,0));
+		return world;
 
-		for (int row = 0; row < height+1; row++) {
-			for (int col = 0; col < width+1; col++) {
-				Rectangle rec = new Rectangle();
-				rec.setWidth(20);
-				rec.setHeight(20);
-
-				rec.setFill(Color.DARKOLIVEGREEN);
-				GridPane.setRowIndex(rec, row);
-				GridPane.setColumnIndex(rec, col);
-				gridPane.getChildren().addAll(rec);
-
-			}
-		}
-
-		for (Critter cr : population) {
-			CritterShape shape = cr.viewShape();
-			if(shape.equals(CritterShape.CIRCLE)){
-				Circle c = new Circle();
-				c.setRadius(10);
-				c.setCenterX(cr.x_coord-10);
-				c.setCenterY(cr.y_coord-10);
-				c.setFill(Color.GREEN);
-				GridPane.setRowIndex(c, 100);
-				GridPane.setColumnIndex(c, 100);
-				gridPane.getChildren().addAll(c);
-			}
-
-		}
-
-		/*for (int x = 0 ; x < width+1 ; x++) {
-			ColumnConstraints cc = new ColumnConstraints();
-			cc.setFillWidth(true);
-			cc.setHgrow(Priority.ALWAYS);
-			gridPane.getColumnConstraints().add(cc);
-		}
-
-		for (int y = 0 ; y < height+1 ; y++) {
-			RowConstraints rc = new RowConstraints();
-			rc.setFillHeight(true);
-			rc.setVgrow(Priority.ALWAYS);
-			gridPane.getRowConstraints().add(rc);
-		}*/
-
-		/*for (int x = 0 ; x < width+1 ; x++) {
-			for (int y = 0 ; y < height+1 ; y++) {
-				gridPane.add(new Rectangle(5,5), x, y);
-			}
-		}*/
-
-
-		return gridPane;
-
-	}
-
-	private static StackPane createCell(Critter cr) {
-		// find the shape of he
-		Rectangle rec = new Rectangle();
-		rec.setWidth(50);
-		rec.setHeight(50);
-
-		CritterShape cs = cr.viewShape();
-
-		if (cs.equals(CritterShape.CIRCLE)) {
-
-		}
-
-		StackPane cell = new StackPane();
-
-		//cell.getChildren().add(s);
-		cell.getStyleClass().add("cell");
-		return cell;
 	}
 }
-
-//for(int i = 0; i < population.size(); i++){
-//			Critter cr = population.get(i);
-//
-//			if( (cr.x_coord <= width) && (cr.y_coord <= height) && (cr.x_coord > 0) && (cr.y_coord > 0)){
-//				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
-//			}
-//		}
