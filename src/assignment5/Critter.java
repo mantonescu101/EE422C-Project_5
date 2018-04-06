@@ -1,25 +1,8 @@
 package assignment5;
 
-import javafx.geometry.Insets;
-import javafx.scene.control.Button;
-import javafx.scene.shape.Circle;
-import javafx.scene.shape.Rectangle;
-import javafx.scene.shape.Shape;
-import javafx.scene.text.Font;
-import javafx.stage.Stage;
 
-
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.ArcType;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.layout.*;
-import javafx.scene.text.*;
-
+import javafx.scene.shape.Rectangle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +29,7 @@ public abstract class Critter {
 	 * need to, but please preserve that intent as you implement them. 
 	 */
 	public javafx.scene.paint.Color viewColor() { 
-		return javafx.scene.paint.Color.WHITE; 
+		return Color.OLIVEDRAB;
 	}
 	
 	public javafx.scene.paint.Color viewOutlineColor() { return viewColor(); }
@@ -534,22 +517,31 @@ public abstract class Critter {
 	/**
 	 * creates the world and displays the critters on it
 	 */
-	public static char[][] displayWorld() {
+	public static void displayWorld() {
+		WorldView.paint();
 
 		int height = Params.world_height + 1;
 		int width = Params.world_width + 1;
-		char[][] world = new char[height + 1][width + 1];
 
 		// add critters
 		for(int i = 0; i < population.size(); i++){
 			Critter cr = population.get(i);
+			WorldView.drawCritter(cr.x_coord,cr.y_coord, cr.viewShape(), cr.viewOutlineColor(),cr.viewFillColor());
 
-			if( (cr.x_coord <= width) && (cr.y_coord <= height) && (cr.x_coord > 0) && (cr.y_coord > 0)){
-				world[cr.y_coord][cr.x_coord] = cr.toString().charAt(0);
-			}
 		}
 
-		return world;
-
+//		for(int i = 0; i < Params.world_height*WorldView.tileSize; i+=WorldView.tileSize){
+//			for (int j = 0; j < Params.world_width*WorldView.tileSize; j+=WorldView.tileSize) {
+//				for(Critter crit : population){
+//					if(i != crit.x_coord && j != crit.y_coord){
+//						Rectangle tile = new Rectangle(WorldView.tileSize, WorldView.tileSize);
+//						tile.setStroke(Color.BLACK);
+//						tile.setFill(Color.OLIVEDRAB);
+//						Main.worldGrid.add(tile, i, j);
+//					}
+//				}
+//			}
+//		}
 	}
+
 }

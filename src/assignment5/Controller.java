@@ -2,9 +2,9 @@ package assignment5;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 
 import java.lang.reflect.InvocationTargetException;
@@ -14,13 +14,17 @@ import java.util.List;
 
 
 public class Controller {
+    public GridPane grid;
     public ChoiceBox Critters;
     public Text output;
 
     public void processButton(ActionEvent event){
 
+
+
         String value = ((Button)event.getSource()).getText();
         if(value.equals("Quit")){
+            Main.timer.stop();
             Platform.exit();
         }
 
@@ -29,6 +33,7 @@ public class Controller {
         }
 
         else if(value.equals("Show")){
+            Main.timer.start();
             Critter.displayWorld();
         }
         else if(value.equals("Make")){
@@ -41,7 +46,6 @@ public class Controller {
                 System.out.println("u f up");
             }
         }
-
         else if(value.equals("Stats")){
             List<Critter> list = new ArrayList<Critter>();
             String cr = "";
@@ -56,6 +60,34 @@ public class Controller {
             } catch (InvalidCritterException | ClassNotFoundException |
                     NoSuchMethodException | IllegalAccessException | InvocationTargetException e){
                 System.out.println("u f up");
+            }
+        }
+        else if(value.equals("Step 1")){
+            Critter.worldTimeStep();
+        }
+        else if(value.equals("Step 5")){
+            for (int i = 0; i < 5; i++) {
+                Critter.worldTimeStep();
+            }
+        }
+        else if(value.equals("Step 10")){
+            for (int i = 0; i < 10; i++) {
+                Critter.worldTimeStep();
+            }
+        }
+        else if(value.equals("Step 50")){
+            for (int i = 0; i < 50; i++) {
+                Critter.worldTimeStep();
+            }
+        }
+        else if(value.equals("Step 100")){
+            for (int i = 0; i < 100; i++) {
+                Critter.worldTimeStep();
+            }
+        }
+        else if(value.equals("Step 1000")){
+            for (int i = 0; i < 1000; i++) {
+                Critter.worldTimeStep();
             }
         }
 
