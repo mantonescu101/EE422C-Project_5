@@ -29,7 +29,7 @@ public abstract class Critter {
 	 * need to, but please preserve that intent as you implement them. 
 	 */
 	public javafx.scene.paint.Color viewColor() { 
-		return Color.OLIVEDRAB;
+		return Color.BLACK;
 	}
 	
 	public javafx.scene.paint.Color viewOutlineColor() { return viewColor(); }

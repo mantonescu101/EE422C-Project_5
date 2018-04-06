@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd73897f-60a2-46f7-9b0d-c4e9fbf4ca66" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assignment5/WorldView.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/AlgaephobicCritter.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/AlgaephobicCritter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Controller.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter$CritterShape.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter$CritterShape.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter$TestCritter.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter$TestCritter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Critter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Main.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Params.class" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/Params.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/View.fxml" afterPath="$PROJECT_DIR$/out/production/EE 422C - Project 5/assignment5/View.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/AlgaephobicCritter.java" afterPath="$PROJECT_DIR$/src/assignment5/AlgaephobicCritter.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Controller.java" afterPath="$PROJECT_DIR$/src/assignment5/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Critter.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Main.java" afterPath="$PROJECT_DIR$/src/assignment5/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Params.java" afterPath="$PROJECT_DIR$/src/assignment5/Params.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/View.fxml" afterPath="$PROJECT_DIR$/src/assignment5/View.fxml" />
-    </list>
+    <list default="true" id="dd73897f-60a2-46f7-9b0d-c4e9fbf4ca66" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,17 +12,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="e#493#594#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,11 +25,76 @@
       <file leaf-file-name="WorldView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/WorldView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+            <state relative-caret-position="21">
+              <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCritter2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCritter3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCritter4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCritter5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Params.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,38 +102,31 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="651">
+              <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assignment5/View.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Critter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="528" column="31" lean-forward="false" selection-start-line="528" selection-start-column="31" selection-end-line="528" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1273#1282#0" expanded="true" />
-                <element signature="e#1348#1357#0" expanded="true" />
-                <element signature="e#6987#6996#0" expanded="true" />
-                <element signature="e#7470#7487#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -111,6 +147,7 @@
       <find>runst</find>
       <find>Hello</find>
       <find>stat</find>
+      <find>oli</find>
     </findStrings>
     <replaceStrings>
       <replace>temp_x_coord</replace>
@@ -136,20 +173,31 @@
         <option value="$PROJECT_DIR$/src/assignment5/TragicCritter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Craig.java" />
         <option value="$PROJECT_DIR$/src/assignment5/AlgaephobicCritter.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/View.fxml" />
         <option value="$PROJECT_DIR$/src/startercode/Main.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Painter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Params.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Animation.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/Controller.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/Critter.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/WorldView.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Main.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Critter.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Controller.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/WorldView.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/MyCritter2.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/MyCritter4.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/MyCritter5.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/MyCritter3.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/View.fxml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="179" />
+    <option name="y" value="-14" />
     <option name="width" value="1440" />
     <option name="height" value="798" />
   </component>
@@ -169,44 +217,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="EE 422C - Project 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE 422C - Project 5" type="462c0819:PsiDirectoryNode" />
+              <item name="EE422C-Project_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EE422C-Project_5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EE 422C - Project 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE 422C - Project 5" type="462c0819:PsiDirectoryNode" />
+              <item name="EE422C-Project_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EE422C-Project_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EE 422C - Project 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE 422C - Project 5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EE 422C - Project 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE 422C - Project 5" type="462c0819:PsiDirectoryNode" />
+              <item name="EE422C-Project_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EE422C-Project_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="WorldView" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="EE 422C - Project 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE 422C - Project 5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="startercode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -216,6 +251,8 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/hyalithus/Documents/School/Year 2/Spring 2018/EE 422C - Project 5/src/assignment5/Main.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -377,11 +414,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522683417628</updated>
+      <workItem from="1522981085478" duration="6037000" />
+      <workItem from="1522987388411" duration="556000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6593000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="798" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,18 +434,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18732782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1277487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18489583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35950413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35950413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -412,6 +455,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -419,14 +465,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/assignment5/Controller.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/assignment5/Critter.java</url>
-          <line>528</line>
+          <line>501</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -436,57 +476,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/startercode/Painter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9435">
-          <caret line="629" column="5" lean-forward="false" selection-start-line="629" selection-start-column="5" selection-end-line="629" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1273#1282#0" expanded="true" />
-            <element signature="e#1348#1357#0" expanded="true" />
-            <element signature="e#6987#6996#0" expanded="true" />
-            <element signature="e#7470#7487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#493#594#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="296" column="0" lean-forward="false" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment5/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -495,13 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java" />
     <entry file="file://$PROJECT_DIR$/src/startercode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -528,15 +512,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9435">
           <caret line="629" column="5" lean-forward="false" selection-start-line="629" selection-start-column="5" selection-end-line="629" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1273#1282#0" expanded="true" />
-            <element signature="e#1348#1357#0" expanded="true" />
-            <element signature="e#6987#6996#0" expanded="true" />
-            <element signature="e#7470#7487#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,29 +520,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#493#594#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="296" column="0" lean-forward="false" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java" />
     <entry file="file://$PROJECT_DIR$/src/startercode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -593,15 +552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8460">
           <caret line="564" column="16" lean-forward="false" selection-start-line="564" selection-start-column="16" selection-end-line="564" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1273#1282#0" expanded="true" />
-            <element signature="e#1348#1357#0" expanded="true" />
-            <element signature="e#6987#6996#0" expanded="true" />
-            <element signature="e#7470#7487#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,13 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Circle.java" />
     <entry file="file://$PROJECT_DIR$/critters.fxml" />
     <entry file="file://$PROJECT_DIR$/Untitled.fxml" />
     <entry file="file://$PROJECT_DIR$/src/assignment5/Untitled.fxml" />
@@ -645,26 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Animation.java" />
-    <entry file="file://$PROJECT_DIR$/src/assignment5/View.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/TragicCritter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -673,48 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/AlgaephobicCritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="964" column="0" lean-forward="false" selection-start-line="964" selection-start-column="0" selection-end-line="964" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/collections/MapChangeListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/collections/FXCollections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/GridPane.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/collections/MapChangeListener.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/collections/FXCollections.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/layout/Pane.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -723,157 +610,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ObjectProperty.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ObjectProperty.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/SimpleObjectProperty.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ReadOnlyObjectWrapper.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Shape.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Node.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/control/Button.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/event/Event.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Scene.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/SimpleObjectProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/beans/property/ReadOnlyObjectWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/AlgaephobicCritter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="1029">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3885">
-          <caret line="344" column="0" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="0" />
-          <folding>
-            <element signature="e#13255#13256#0" expanded="true" />
-            <element signature="e#13296#13297#0" expanded="true" />
-            <element signature="e#15277#15278#0" expanded="true" />
-            <element signature="e#15320#15321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115020">
-          <caret line="8411" column="0" lean-forward="false" selection-start-line="8411" selection-start-column="0" selection-end-line="8411" selection-end-column="0" />
-          <folding>
-            <element signature="e#31407#31408#0" expanded="true" />
-            <element signature="e#31466#31467#0" expanded="true" />
-            <element signature="e#35131#35138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/control/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="2494" column="0" lean-forward="false" selection-start-line="2494" selection-start-column="0" selection-end-line="2494" selection-end-column="0" />
-          <folding>
-            <element signature="e#66572#66573#0" expanded="true" />
-            <element signature="e#66618#66619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="1657" column="0" lean-forward="false" selection-start-line="1657" selection-start-column="0" selection-end-line="1657" selection-end-column="0" />
-          <folding>
-            <element signature="e#66921#66922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="528" column="31" lean-forward="false" selection-start-line="528" selection-start-column="31" selection-end-line="528" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1273#1282#0" expanded="true" />
-            <element signature="e#1348#1357#0" expanded="true" />
-            <element signature="e#6987#6996#0" expanded="true" />
-            <element signature="e#7470#7487#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="567">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/WorldView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="651">
+          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="462">
+          <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/WorldView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
-            <element signature="e#493#594#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/MyCritter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/View.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>

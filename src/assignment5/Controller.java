@@ -20,11 +20,8 @@ public class Controller {
 
     public void processButton(ActionEvent event){
 
-
-
         String value = ((Button)event.getSource()).getText();
         if(value.equals("Quit")){
-            Main.timer.stop();
             Platform.exit();
         }
 
@@ -33,7 +30,6 @@ public class Controller {
         }
 
         else if(value.equals("Show")){
-            Main.timer.start();
             Critter.displayWorld();
         }
         else if(value.equals("Make")){
@@ -45,6 +41,7 @@ public class Controller {
             } catch(InvalidCritterException e){
                 System.out.println("u f up");
             }
+            Critter.displayWorld();
         }
         else if(value.equals("Stats")){
             List<Critter> list = new ArrayList<Critter>();
@@ -62,34 +59,33 @@ public class Controller {
                 System.out.println("u f up");
             }
         }
-        else if(value.equals("Step 1")){
+        else if(value.equals("Step")){
             Critter.worldTimeStep();
         }
-        else if(value.equals("Step 5")){
-            for (int i = 0; i < 5; i++) {
-                Critter.worldTimeStep();
+        else if(value.equals("Start")){
+            if(Main.timerN == 1){
+                Main.timer.start();
+            }
+            else if(Main.timerN == 2){
+                Main.timer2.start();
+            }
+            else if(Main.timerN == 3){
+                Main.timer3.start();
             }
         }
-        else if(value.equals("Step 10")){
-            for (int i = 0; i < 10; i++) {
-                Critter.worldTimeStep();
-            }
+        else if(value.equals("Stop")){
+            Main.timer.stop();
+            Main.timer2.stop();
+            Main.timer3.stop();
         }
-        else if(value.equals("Step 50")){
-            for (int i = 0; i < 50; i++) {
-                Critter.worldTimeStep();
-            }
+        else if(value.equals("Speed 1")){
+            Main.timerN = 1;
         }
-        else if(value.equals("Step 100")){
-            for (int i = 0; i < 100; i++) {
-                Critter.worldTimeStep();
-            }
+        else if(value.equals("Speed 2")){
+            Main.timerN = 2;
         }
-        else if(value.equals("Step 1000")){
-            for (int i = 0; i < 1000; i++) {
-                Critter.worldTimeStep();
-            }
+        else if(value.equals("Speed 3")){
+            Main.timerN = 3;
         }
-
     }
 }

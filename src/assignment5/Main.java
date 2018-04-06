@@ -10,17 +10,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import org.omg.CORBA.DynAnyPackage.Invalid;
 
 public class Main extends Application{
 
 	static GridPane worldGrid = new GridPane();
 	static GridPane critGrid = new GridPane();
-	static AnimationTimer timer = new AnimationTimer() {
-		@Override
-		public void handle(long now) {
-			Critter.displayWorld();
-		}
-	};
+	public static int timerN = 1;
 
 	public static void main(String[] args) {
 		launch(args);
@@ -35,7 +31,7 @@ public class Main extends Application{
 		world.setTitle("World");
 		StackPane stackPane = new StackPane();
 		ObservableList list = stackPane.getChildren();
-		list.addAll(critGrid, worldGrid);
+		list.addAll(worldGrid, critGrid);
 		Scene worldScene = new Scene(stackPane, Params.world_width*(WorldView.tileSize+2), Params.world_height*(WorldView.tileSize+2)); //Fix later
 		world.setScene(worldScene);
 		world.show();
@@ -43,4 +39,52 @@ public class Main extends Application{
 		primaryStage.setScene(new Scene(root));
 		primaryStage.show();
 	}
+
+	static Animation timer = new Animation(500) {
+		@Override
+		public void handle() {
+			for (int i = 0; i < Params.refresh_algae_count; i++) {
+				try{
+					Critter.makeCritter("assignment5.Algae");
+				}catch(InvalidCritterException ICE){
+					System.out.println("error in making algae");
+				}
+			}
+
+			Critter.worldTimeStep();
+			Critter.displayWorld();
+		}
+	};
+
+	static Animation timer2 = new Animation(200) {
+		@Override
+		public void handle() {
+			for (int i = 0; i < Params.refresh_algae_count; i++) {
+				try{
+					Critter.makeCritter("assignment5.Algae");
+				}catch(InvalidCritterException ICE){
+					System.out.println("error in making algae");
+				}
+			}
+
+			Critter.worldTimeStep();
+			Critter.displayWorld();
+		}
+	};
+
+	static Animation timer3 = new Animation(100) {
+		@Override
+		public void handle() {
+			for (int i = 0; i < Params.refresh_algae_count; i++) {
+				try{
+					Critter.makeCritter("assignment5.Algae");
+				}catch(InvalidCritterException ICE){
+					System.out.println("error in making algae");
+				}
+			}
+
+			Critter.worldTimeStep();
+			Critter.displayWorld();
+		}
+	};
 }

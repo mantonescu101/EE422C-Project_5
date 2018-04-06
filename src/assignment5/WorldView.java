@@ -49,7 +49,7 @@ public class WorldView {
 				s = new Circle(tileSize/2);
 				break;
 			case 1: // square
-				s = new Rectangle(tileSize, tileSize);
+				s = new Rectangle(tileSize,tileSize);
 				break;
 			case 2: // triangle
 				s = drawTriangle();
@@ -75,15 +75,26 @@ public class WorldView {
 		sh.setFill(fill);
 		sh.setStroke(outline);
 
-		Main.critGrid.add(sh, x_coord,y_coord);
+		if(x_coord == 0 && y_coord == 0){
+			Main.critGrid.add(sh, x_coord,y_coord );
+		}
+		else if(x_coord == 0){
+			Main.critGrid.add(sh, x_coord,y_coord -1);
+		}
+		else if(y_coord == 0) {
+			Main.critGrid.add(sh, x_coord-1,y_coord);
+		}
+		else{
+			Main.critGrid.add(sh, x_coord-1,y_coord -1);
+		}
 	}
 
 	public static void drawGrid(){
 		for(int i = 0; i < Params.world_height*tileSize; i+=tileSize){
 			for (int j = 0; j < Params.world_width*tileSize; j+=tileSize) {
 				Rectangle tile = new Rectangle(tileSize, tileSize);
-				tile.setStroke(Color.BLACK);
-				tile.setFill(Color.OLIVEDRAB);
+				tile.setStroke(Color.GREY);
+				tile.setFill(Color.BLACK);
 				Main.worldGrid.add(tile, i, j);
 			}
 		}
@@ -92,6 +103,7 @@ public class WorldView {
 	/* Paints the shape on a grid. */
 	public static void paint() {
 		Main.critGrid.getChildren().clear();
+		Main.worldGrid.getChildren().clear();
 		drawGrid();
 	}
 
