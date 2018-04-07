@@ -1,3 +1,15 @@
+/* CRITTERS MyCritter3.java
+ * EE422C Project 5 submission by
+ * Mircea Antonescu
+ * mca2357
+ * 15500
+ * Zahra Atzuri
+ * zfa84
+ * 15500
+ * Slip days used: <0>
+ * Spring 2018
+ */
+
 package assignment5;
 
 import javafx.scene.paint.Color;

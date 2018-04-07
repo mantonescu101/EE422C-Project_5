@@ -1,15 +1,15 @@
-/* CRITTERS Critter.java
- * EE422C Project 4 submission by
- * Replace <...> with your actual data.
- * <Student1 Name>
- * <Student1 EID>
- * <Student1 5-digit Unique No.>
- * <Student2 Name>
- * <Student2 EID>
- * <Student2 5-digit Unique No.>
+/* CRITTERS WorldView.java
+ * EE422C Project 5 submission by
+ * Mircea Antonescu
+ * mca2357
+ * 15500
+ * Zahra Atzuri
+ * zfa84
+ * 15500
  * Slip days used: <0>
- * Fall 2015
+ * Spring 2018
  */
+
 package assignment5;
 
 import javafx.scene.paint.Color;
