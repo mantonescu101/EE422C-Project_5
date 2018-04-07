@@ -6,8 +6,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
@@ -16,9 +16,6 @@
    <top>
 
    </top>
-   <bottom>
-      <HBox prefHeight="41.0" prefWidth="650.0" BorderPane.alignment="CENTER" />
-   </bottom>
    <center>
    </center>
    <left>
@@ -46,6 +43,11 @@
                   <Insets left="10.0" top="25.0" />
                </VBox.margin>
             </ChoiceBox>
+            <TextField fx:id="textInput1" onAction="#processButton" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="93.0">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
             <Button mnemonicParsing="false" onAction="#processButton" text="Make">
                <VBox.margin>
                   <Insets left="10.0" top="10.0" />
@@ -58,20 +60,20 @@
             </Button>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Speed:">
                <VBox.margin>
-                  <Insets left="10.0" top="50.0" />
+                  <Insets left="10.0" top="45.0" />
                </VBox.margin>
             </Text>
-            <Button mnemonicParsing="false" text="Speed 1" onAction="#processButton">
+            <Button mnemonicParsing="false" onAction="#processButton" text="Speed 1">
                <VBox.margin>
                   <Insets left="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="Speed 2" onAction="#processButton">
+            <Button mnemonicParsing="false" onAction="#processButton" text="Speed 2">
                <VBox.margin>
                   <Insets left="10.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="Speed 3" onAction="#processButton">
+            <Button mnemonicParsing="false" onAction="#processButton" text="Speed 3">
                <VBox.margin>
                   <Insets left="10.0" top="10.0" />
                </VBox.margin>
@@ -80,7 +82,7 @@
       </VBox>
    </left>
    <right>
-      <VBox prefHeight="337.0" prefWidth="123.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="399.0" prefWidth="123.0" BorderPane.alignment="CENTER">
          <children>
           <Button alignment="CENTER" mnemonicParsing="false" onAction="#processButton" prefHeight="27.0" prefWidth="54.0" text="Quit" textAlignment="CENTER">
                <VBox.margin>
@@ -99,7 +101,7 @@
             </Button>
             <Button mnemonicParsing="false" onAction="#processButton" text="Start">
                <VBox.margin>
-                  <Insets left="40.0" top="100.0" />
+                  <Insets left="40.0" top="50.0" />
                </VBox.margin>
             </Button>
             <Button mnemonicParsing="false" onAction="#processButton" text="Stop">
@@ -107,9 +109,14 @@
                   <Insets left="40.0" top="10.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="Step">
+            <TextField fx:id="textInput2" onAction="#processButton" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="93.0">
                <VBox.margin>
-                  <Insets left="40.0" top="10.0" />
+                  <Insets left="10.0" top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#processButton" text="Step">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
                </VBox.margin>
             </Button>
          </children>
